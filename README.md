@@ -211,3 +211,16 @@ Saldo actual = 0.00 (0 compras y 0 ventas)
 
 ## **Bonus:**
 Si tienes tiempo adicional, intenta mejorar el programa añadiendo la opción de "deshacer" la última operación realizada, devolviendo el saldo y los contadores a su estado anterior.
+
+### ** Ejemplo de salida para Bonus extra:**
+
+```
+> compra 21000
+> saldo
+Saldo actual = -21000.00 (1 compras y 0 ventas)
+> deshacer
+Última operación deshecha.
+> saldo
+Saldo actual = 0.00 (0 compras y 0 ventas)
+> 
+```
